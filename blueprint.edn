@@ -1,0 +1,12 @@
+{:itonami.blueprint/id "cloud-itonami-iso3166-jpn-mlit"
+ :itonami.blueprint/name "Independent MLIT Construction-Business Licensing Compliance Service — Japan (MLIT)"
+ :itonami.blueprint/iso3166 "JPN-MLIT"
+ :itonami.blueprint/iso3166-parent "JPN"
+ :itonami.blueprint/ooyake-id "gov.jpn.mlit"
+ :itonami.blueprint/domain :public-sector/mlit-construction-licensing-compliance
+ :itonami.blueprint/license "AGPL-3.0-or-later"
+ :itonami.blueprint/social-impact [:construction-license-clarity :infrastructure-market-access :public-spend-transparency]
+ :itonami.blueprint/governor :construction-licensing-compliance-governor
+ :itonami.blueprint/robotics false
+ :itonami.blueprint/required-technologies [:identity :forms :dmn :bpmn :audit-ledger]
+ :itonami.blueprint/status :public-oss}
